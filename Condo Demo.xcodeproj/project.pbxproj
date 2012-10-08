@@ -159,6 +159,11 @@
 		34BEC7A6161FA8E3001BCB8B /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34BEC7A5161FA8E3001BCB8B /* HelloWorldLayer.mm */; };
 		34BEC7A9161FA8E3001BCB8B /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34BEC7A8161FA8E3001BCB8B /* GLES-Render.mm */; };
 		34BEC7AC161FA8E3001BCB8B /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BEC7AB161FA8E3001BCB8B /* blocks.png */; };
+		34BEC7BD161FCDF1001BCB8B /* rectblock.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BEC7BC161FCDF1001BCB8B /* rectblock.png */; };
+		34BEC7C0161FDA93001BCB8B /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34BEC7BF161FDA93001BCB8B /* MyContactListener.mm */; };
+		34BEC7D31621CED8001BCB8B /* CondoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BEC7D21621CED8001BCB8B /* CondoClass.m */; };
+		34BEC7D5162279E7001BCB8B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BEC7D4162279E6001BCB8B /* Default-568h@2x.png */; };
+		34F767E816228774009D77B3 /* rectblock-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F767E716228774009D77B3 /* rectblock-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -473,6 +478,13 @@
 		34BEC7A8161FA8E3001BCB8B /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		34BEC7AA161FA8E3001BCB8B /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		34BEC7AB161FA8E3001BCB8B /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		34BEC7BC161FCDF1001BCB8B /* rectblock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectblock.png; path = Resources/rectblock.png; sourceTree = "<group>"; };
+		34BEC7BE161FDA93001BCB8B /* MyContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactListener.h; sourceTree = "<group>"; };
+		34BEC7BF161FDA93001BCB8B /* MyContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyContactListener.mm; sourceTree = "<group>"; };
+		34BEC7D11621CED8001BCB8B /* CondoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CondoClass.h; path = ../CondoClass.h; sourceTree = "<group>"; };
+		34BEC7D21621CED8001BCB8B /* CondoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CondoClass.m; path = ../CondoClass.m; sourceTree = "<group>"; };
+		34BEC7D4162279E6001BCB8B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		34F767E716228774009D77B3 /* rectblock-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rectblock-hd.png"; path = "Resources/rectblock-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -497,6 +509,7 @@
 		34BEC5BA161FA8DE001BCB8B = {
 			isa = PBXGroup;
 			children = (
+				34BEC7D4162279E6001BCB8B /* Default-568h@2x.png */,
 				34BEC5D9161FA8DF001BCB8B /* Condo Demo */,
 				34BEC5C8161FA8DF001BCB8B /* Frameworks */,
 				34BEC5C6161FA8DF001BCB8B /* Products */,
@@ -535,6 +548,10 @@
 				34BEC7A2161FA8E3001BCB8B /* RootViewController.m */,
 				34BEC7A4161FA8E3001BCB8B /* HelloWorldLayer.h */,
 				34BEC7A5161FA8E3001BCB8B /* HelloWorldLayer.mm */,
+				34BEC7D11621CED8001BCB8B /* CondoClass.h */,
+				34BEC7D21621CED8001BCB8B /* CondoClass.m */,
+				34BEC7BE161FDA93001BCB8B /* MyContactListener.h */,
+				34BEC7BF161FDA93001BCB8B /* MyContactListener.mm */,
 				34BEC7A7161FA8E3001BCB8B /* GLES-Render.h */,
 				34BEC7A8161FA8E3001BCB8B /* GLES-Render.mm */,
 				34BEC7AA161FA8E3001BCB8B /* GameConfig.h */,
@@ -559,6 +576,8 @@
 				34BEC5EB161FA8DF001BCB8B /* Info.plist */,
 				34BEC5EC161FA8DF001BCB8B /* iTunesArtwork */,
 				34BEC7AB161FA8E3001BCB8B /* blocks.png */,
+				34BEC7BC161FCDF1001BCB8B /* rectblock.png */,
+				34F767E716228774009D77B3 /* rectblock-hd.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1063,6 +1082,9 @@
 				34BEC5EA161FA8DF001BCB8B /* Icon@2x.png in Resources */,
 				34BEC5ED161FA8DF001BCB8B /* iTunesArtwork in Resources */,
 				34BEC7AC161FA8E3001BCB8B /* blocks.png in Resources */,
+				34BEC7BD161FCDF1001BCB8B /* rectblock.png in Resources */,
+				34BEC7D5162279E7001BCB8B /* Default-568h@2x.png in Resources */,
+				34F767E816228774009D77B3 /* rectblock-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1207,6 +1229,8 @@
 				34BEC7A3161FA8E3001BCB8B /* RootViewController.m in Sources */,
 				34BEC7A6161FA8E3001BCB8B /* HelloWorldLayer.mm in Sources */,
 				34BEC7A9161FA8E3001BCB8B /* GLES-Render.mm in Sources */,
+				34BEC7C0161FDA93001BCB8B /* MyContactListener.mm in Sources */,
+				34BEC7D31621CED8001BCB8B /* CondoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1258,7 +1282,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Condo Demo/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Condo Demo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"Condo Demo/libs\"";
@@ -1274,7 +1300,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Condo Demo/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Condo Demo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"Condo Demo/libs\"";
@@ -1302,6 +1330,7 @@
 				34BEC7B1161FA8E3001BCB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
